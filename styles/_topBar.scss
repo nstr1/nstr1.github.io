@@ -3,16 +3,17 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: rgb(50, 112, 205);
+    box-shadow: 4px -1px 31px 5px rgba(0,0,0,0.77);
+    background-color: rgb(23, 23, 24);
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     li { 
         a {
             display: block;
             color: whitesmoke;
-            padding: 14px 16px;
+            padding: 14px 18px;
             text-decoration: none;
             float: left;
             }
@@ -20,7 +21,7 @@
                 position: right;
                 float: right;
                 &:hover{
-                    background-color: rgb(71, 144, 253);
+                    background-color: rgb(53, 53, 53);
             }
         }
     }
