@@ -1,0 +1,82 @@
+.Appointments {
+  //display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 25%;
+
+  .item {
+    //width: 30rem;
+    margin-bottom: 15px;
+    margin-top:0;
+    opacity: 70%;
+  }
+
+  .item-body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .card-body {
+    background: #4D4746;
+  }
+
+  .item-title {
+    margin-bottom: 0;
+    color: #4f823d;
+  }
+
+  .item-leftside {
+    text-align: left;
+  }
+
+  .item-rightside {
+    text-align: right;
+  }
+
+  .item-desc {
+    display: block;
+    color: white;
+  }
+
+  .item-details {
+    margin-right: 5px;
+    color: #808080;
+  }
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  opacity: 100%;
+}
+.deck{
+  width: 600px;
+}
+}
+.page-item{
+  list-style: none;
+}
+
+.buttons{
+  margin-left: 50%;
+}
+@media (max-width: 1220px){
+  .Appointments{
+    .item{
+      width: 70%;
+    }
+  }
+}
+@media (max-width: 520px){
+  .Appointments{
+    width: 100%;
+    .deck{
+      width: 100%;
+    }
+  }
+}

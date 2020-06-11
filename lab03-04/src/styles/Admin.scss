@@ -1,0 +1,48 @@
+
+.ContentChooser{
+    width: 300px;
+    box-shadow: 13px 6px 17px -13px rgba(0,0,0,0.75);
+    height: 100%;
+    float: left;
+    padding: unset;
+    margin-left: 2px;
+    padding-top: 0px;
+    padding-right: 2px;
+    height: 897px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+
+}
+.box-item{
+    width: 300px;
+}
+
+
+.table-light{
+    background: rgba(255,255,255,0.5);    
+
+}
+
+.Table{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.Content{
+    margin-left: 304px;
+}
+.ContentTable{
+    width: 90%;
+    margin-left: 20px;
+}
+.nav-pills .pill-1 .nav-link {
+    background-color: #212529;
+    color: white;
+}
+.nav-pills .pill-1 .nav-link:not(.active) {
+    background-color: white;
+    color:#212529;
+}

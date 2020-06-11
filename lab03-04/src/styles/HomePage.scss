@@ -1,0 +1,15 @@
+.HomePage {
+    .main {
+        display: flex;
+        padding: 0 60px;
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:520px){
+    .HomePage{
+        .main{
+            padding: 0 0px;
+        }
+    }
+}
